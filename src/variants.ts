@@ -29,7 +29,7 @@ export const staggerContainer: Variants = {
 
 export const bottleWrapper: Variants = {
   initial: {
-    y: -1000,
+    y: '-100vh',
   },
   animate: {
     y: 0,
@@ -57,7 +57,7 @@ export const bottle: Variants = {
 
 export const leafWrapper: Variants = {
   initial: {
-    y: -1200,
+    y: '-100vh',
   },
   animate: {
     y: 0,
