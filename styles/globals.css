@@ -8,6 +8,11 @@
   body {
     @apply h-screen font-serif text-gray-900 bg-gray-100;
   }
+
+  #__next {
+    @apply max-w-screen-2xl;
+    margin: 0 auto;
+  }
 }
 
 @layer components {
